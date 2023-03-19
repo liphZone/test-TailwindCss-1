@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <title>FOODO - Choose your favorite dinner</title>
+  </head>
+  <body class="bg-gray-100">
+    <div class="grid grid-cols-2">
+      <div>
+        <!-- NavBar -->
+        <div class="mb-12 p-5">
+          <nav class="md:flex items-center justify-between">
+            <h1 class="text-2xl font-bold">Foodo</h1>
+            <ul class="lg:flex gap-10">
+              <li><a href="#"> Home</a></li>
+              <li><a href="#"> Service</a></li>
+              <li><a href="#"> Shop</a></li>
+              <li><a href="#"> Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <!-- Order -->
+        <div class="pt-20 pb-20 pl-5 sm:text-center md:text-left">
+          <main>
+            <h1 class="text-orange-600 text-6xl font-bold pb-3">Order you</h1>
+            <h2 class="text-4xl pb-3">favorite foods</h2>
+            <p>
+              One of the very nicest things about life is the way we must <br />
+              regulary stop whatever it is we are doing and devote our <br />
+              attention to <span class="text-orange-600"> eating</span>.
+            </p>
+          </main>
+        </div>
+
+        <!-- Popular -->
+        <div>
+          <h1 class="font-bold pl-5 sm:text-center md:text-left">Popular</h1>
+          <div class="grid sm:grid-cols-1 md:grid-cols-5 items-center">
+            <div>
+              <img src="/src/images/1.png" alt="plat1" />
+            </div>
+            <div>
+              <img src="/src/images/2.png" alt="plat2" />
+            </div>
+            <div>
+              <img src="/src/images/3.png" alt="plat3" />
+            </div>
+            <div>
+              <img src="/src/images/4.png" alt="plat4" />
+            </div>
+            <div>
+              <img src="/src/images/5.png" alt="plat5" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Choose your dinner -->
+        <div class="pl-5 pt-20">
+          <h1 class="text-center">Choose your dinner</h1>
+          <div class="justify-center grid sm:grid-cols-1 md:grid-cols-3">
+            <div>
+              <img src="/src/images/dinde.png" class="w-32" alt="dinde" />
+              <p>Dinde</p>
+            </div>
+            <div>
+              <img
+                src="/src/images/fast-food.png"
+                class="w-32"
+                alt="fast-food"
+              />
+              <p>Fast food</p>
+            </div>
+            <div>
+              <img src="/src/images/legumes.png" class="w-32" alt="legumes" />
+              <p>Légumes</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="sm:hidden md:hidden lg:block">
+        <img src="/src/images/6.jpg" alt="plat6" />
+      </div>
+    </div>
+  </body>
+</html>
